@@ -6,7 +6,7 @@ const btn = document.getElementById("Password_generate");
 //let password = ""
 btn.addEventListener("click" , function() {
     let securePassword = "";
-    let length = 6;
+    let length = 8;
     for(let i=0 ; i<length ; i++){
         securePassword += arr[randomNumber()];
     }
